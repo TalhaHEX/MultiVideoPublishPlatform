@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.env
+client.json
+token.json
+credentials.json
+
+# WebDrivers and Executables
+*.exe
+geckodriver.exe
+geckodriver
+
+# Logs
+*.log
+upload_log.txt
+geckodriver.log
+
+# Media & Generated Automation Folders
+Video/*
+Audio/*
+Output/*
+!Video/.gitkeep
+!Audio/.gitkeep
+!Output/.gitkeep
+*.mp4
+*.mp3
+*.wav
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
